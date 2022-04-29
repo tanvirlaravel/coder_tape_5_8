@@ -1,0 +1,10 @@
+@extends('layouts')
+@section('title', 'About us')
+
+@section('content')
+<h2>About us</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minus omnis optio aspernatur quo asperiores fugit a, natus similique quibusdam eius, voluptatum, facilis autem ab totam tempore. Iure, illo quibusdam!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima magnam corporis itaque delectus? Suscipit optio totam sunt. Ipsa inventore ducimus autem dicta similique eos maxime tempore. Recusandae in quidem repellat voluptas quisquam placeat. Dolores assumenda nesciunt voluptates neque dolore commodi. Distinctio, velit. Sapiente eum tenetur similique accusamus nisi obcaecati reiciendis, et quam quod, magnam nostrum at? Ea asperiores nulla voluptates accusantium nostrum aliquam, minus ab qui facilis, quod earum dicta similique id? Repellendus, consequuntur pariatur. Ratione et sit maiores perferendis a ad mollitia earum, nesciunt aliquid vel perspiciatis, magnam, tenetur soluta quo nihil deleniti? Assumenda velit aliquam, incidunt quaerat, eligendi expedita asperiores, obcaecati repudiandae explicabo corporis delectus modi laborum voluptate. Molestias obcaecati dolore cum officiis laudantium ea sunt rerum temporibus voluptate beatae ab saepe ipsum animi, iste aspernatur culpa. Veritatis voluptates laborum deleniti eius nesciunt, sint aut iusto harum a architecto repudiandae repellendus veniam mollitia quos possimus exercitationem maxime ducimus tempora impedit, quibusdam cumque libero laboriosam blanditiis reiciendis! Corporis recusandae inventore corrupti amet ex aperiam nostrum, dicta quo sint possimus quod quia tenetur maiores? Tempora distinctio veniam ipsa, voluptate eveniet commodi obcaecati eum quo beatae voluptatum repellat! Ex debitis voluptas aspernatur non maxime amet sequi minus veniam, corrupti ab ratione. Deserunt officia ab voluptas nulla non reiciendis recusandae tenetur culpa quis fugit quod eaque harum suscipit, aspernatur dignissimos esse consequuntur est!</p>
+
+@endsection
