@@ -6,3 +6,7 @@ Route::post('contact', 'ContactFormController@store')->name('contact.store');
 Route::view('about', 'about');
 
 Route::resource('customers', 'CustomerController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
