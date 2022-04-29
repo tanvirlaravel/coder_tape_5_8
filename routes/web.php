@@ -1,7 +1,8 @@
 <?php
 
 Route::view('/', 'home');
-Route::view('contact', 'contact');
+Route::get('contact', 'ContactFormController@create')->name('contact.create');
+Route::post('contact', 'ContactFormController@store')->name('contact.store');
 Route::view('about', 'about');
 
 Route::resource('customers', 'CustomerController');

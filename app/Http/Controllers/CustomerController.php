@@ -56,7 +56,7 @@ class CustomerController extends Controller
     private function validateRequest(){
         return request()->validate([
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
             'active' => 'required',
             'company_id' => 'required'
         ]);
