@@ -4,6 +4,8 @@
 @section('content')
 <h2>Contact</h2>
 
+@if (!session()->has('message'))
+
 <form action="{{ route('contact.store') }}" method="POST">
     @csrf
 
@@ -24,5 +26,7 @@
 
     <button type="submit">Send Mail</button>
 </form>
+
+@endif
 
 @endsection

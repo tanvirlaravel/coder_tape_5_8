@@ -22,6 +22,8 @@ class ContactFormController extends Controller
         // send an email
         Mail::to($data['email'])->send(new ContactFormMail($data));
 
+        $request->session()->flash('message', 'Thanks for your message, we\'ll be in touch');
+        
         return redirect()->route('contact.create');
     }
 }
